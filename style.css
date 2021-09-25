@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* header css */
+.header {
+    background-color: rgb(34,195,163);
+    color: white;
+    padding: 20px 0px;
+    text-transform: capitalize;
+}
+.header-logo{
+    width: 30%;
+    float: left;
+}
+.header-menu{
+    width: 70%;
+    float: right;
+}
+.header-menu ul {
+    text-align: right;
+}
+.header-menu ul li {
+    display: inline-block;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+    line-height: 27px;
+}
+.header-menu ul li a:hover{}
+
+/* banner section  */
+.banner{
+    background-image: url(https://i.ibb.co/m9MJJjQ/header-bg01.jpg);
+    padding: 200px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+.banner-caption{
+    text-align: center;
+}
+.banner-caption h1 {
+    text-transform: uppercase;
+    font-size: 55px;
+    color: white;
+}
+.banner-caption h4 {
+    color: #ffffffd9;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.banner-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 2px solid rgba(255, 255, 255, .7);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* service section  */
+.service{
+    border-bottom: 1px solid rgb(13,195,155);
+    padding-bottom: 100px;
+}
+.service-content {
+    text-align: center;
+    padding: 80px 0px;
+}
+.service-content h2 {
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgb(85,85,85);
+    margin-bottom: 20px;
+}
+.service-content p{
+    color: rgb(119,119,119);
+}
+
+.service-item{
+    width: 25%;
+    text-transform: capitalize;
+    float: left;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    
+}
+.service-item span{
+    font-size: 40px;
+    color: rgb(13,195,155);
+}
+.service-item h3 {
+    font-size: 23px;
+    margin: 15px 0px;
+    color: rgb(85,85,85);
+}
+.service-item p {
+    color: rgb(119,119,119);
+    font-size: 15px;
+}
+/* about section  */
+
+.about-us{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 50px 0px;
+}
+.about-us h2{
+    font-size: 35px;
+    color: rgb(85,85,85);
+    margin-bottom: 20px;
+}
+.about-us p{
+    color: rgb(119,119,119);
+}
+.about-content{
+    margin-bottom: 50px;
+}
+.about-content-left{
+    width: 45%;
+    float: left;
+}
+.about-content-right{
+    width: 55%;
+    float: right;
+    color: rgb(119,119,119);
+    text-transform: capitalize;
+    
+}
+.about-inner-content{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-inner-content h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-inner-content p{
+    font-size: 15px;
+}
+/* contact css */
+.contact {
+    display: inline-block;
+    margin-left: 128px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contact-us{
+    padding: 50px 0;
+}
+.contact-us h2{
+    font-size: 25px;
+    margin: 15px 0px;
+    color: rgb(85,85,85);
+}
+.contact-us p{
+    color: rgb(119,119,119);
+    font-size: 15px;
+}
+.contact-item{
+    width: 33%;
+    float: left;
+    margin-bottom: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-item span{
+    font-size: 20px;
+    color: rgb(13,195,155);
+}
+.contact-item p{
+    color: rgb(119,119,119);
+    font-size: 15px;
+}
+/* footer css */
+.footer-top-section{
+background-color: rgb(13,191,155);
+}
+.footer-top{}
+.footer-top ul{
+    text-align: center;
+}
+.footer-top ul li{
+    display: inline-block;
+}
+.footer-top ul li a {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+.footer-bottom-section{
+    background-color: black;
+    text-align: center;
+    
+}
+.footer-bottom span{
+    color: rgb(221, 216, 216);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 10px;
+    display: inline-block;
+}
